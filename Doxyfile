@@ -1,0 +1,116 @@
+#---------------------------------------------------------------------------
+# General configuration options
+#---------------------------------------------------------------------------
+
+# Project name to appear in the generated documentation.
+PROJECT_NAME           = "Project"
+
+# A brief description of the project.
+PROJECT_BRIEF          = "Brief description of the project."
+
+# The version or revision number of the project.
+PROJECT_NUMBER         = "0.0"
+
+# The directory to use as the base path for all relative paths.
+OUTPUT_DIRECTORY       = "docs"
+
+# The directory containing the source code to document.
+INPUT                  = include src
+
+# The file patterns to consider when looking for files to document.
+FILE_PATTERNS          = *.h *.hpp *.c *.cpp
+
+# Whether to recursively search subdirectories of the INPUT directory.
+RECURSIVE              = YES
+
+# Whether to extract documentation from all comments, or only those that use
+# Doxygen's comment markers (/** ... */, /// ..., etc.).
+EXTRACT_ALL            = YES
+
+#---------------------------------------------------------------------------
+# Build related configuration options
+#---------------------------------------------------------------------------
+
+# The default format for the output documentation (HTML is enabled by default).
+GENERATE_HTML          = YES
+
+# Whether to generate a documentation index in the output directory.
+HTML_OUTPUT            = html
+
+# Whether to generate LaTeX output for producing a PDF.
+GENERATE_LATEX         = NO
+
+#---------------------------------------------------------------------------
+# Configuration options related to source browsing
+#---------------------------------------------------------------------------
+
+# Whether to include source code in the documentation.
+SOURCE_BROWSER         = YES
+
+# Whether to include a tree view in HTML documentation.
+HTML_DYNAMIC_SECTIONS  = YES
+
+#---------------------------------------------------------------------------
+# Configuration options related to the input files
+#---------------------------------------------------------------------------
+
+# Whether to include the private and protected members of classes in the documentation.
+EXTRACT_PRIVATE        = NO
+EXTRACT_STATIC         = NO
+EXTRACT_LOCAL_CLASSES  = YES
+
+# Whether to extract undocumented items.
+HIDE_UNDOC_MEMBERS     = NO
+HIDE_UNDOC_CLASSES     = NO
+
+#---------------------------------------------------------------------------
+# Options for customizing the output
+#---------------------------------------------------------------------------
+
+# Whether to generate a tag file that can be used for cross-referencing.
+GENERATE_TAGFILE       = 
+
+# Whether to include diagrams in the documentation.
+HAVE_DOT               = YES
+CLASS_DIAGRAMS         = YES
+COLLABORATION_GRAPH    = YES
+UML_LOOK               = NO
+DOT_UML_DETAILS        = NO
+
+#---------------------------------------------------------------------------
+# Options for generating usage graphs
+#---------------------------------------------------------------------------
+
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+
+#---------------------------------------------------------------------------
+# Other configuration options
+#---------------------------------------------------------------------------
+
+# The character set of the input files.
+INPUT_ENCODING         = UTF-8
+
+# The name of the person or organization responsible for maintaining the
+# documentation.
+# PROJECT_LOGO           = "path/to/logo.png"
+
+# The format in which to output the documentation (can be html, latex, rtf, man, etc.).
+OUTPUT_LANGUAGE        = English
+
+# The case-sensitivity of the file system.
+CASE_SENSE_NAMES       = YES
+
+# The maximum depth of the nested directories to be included.
+MAX_INITIALIZER_LINES  = 30
+
+# Whether to allow formula and math rendering.
+USE_MATHJAX            = YES
+MATHJAX_RELPATH        = https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/
+
+#---------------------------------------------------------------------------
+# Default settings for Doxygen
+#---------------------------------------------------------------------------
+
+# All other options not explicitly set above will use their default values.
+
